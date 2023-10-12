@@ -2,11 +2,11 @@
 Build your own voice-controlled assistant using Python. This project, named 'Alexa,' incorporates speech recognition, text-to-speech conversion, and various APIs to perform tasks like playing music, fetching the weather, searching the web, and more. Customize it to suit your needs and enhance your Python skills in voice interaction and automation."
 
 
-##Overview
+## Overview
 
 Alixa is a Python-based virtual assistant that uses various libraries to perform tasks such as speech recognition, text-to-speech conversion, and interaction with external APIs. It is designed to handle voice commands, play music, provide weather updates, fetch information from Wikipedia, perform translations, and more.
 
-##Features
+## Features
 
 - **Speech Recognition: Alixa utilizes the speech_recognition library to listen for voice commands.
 
