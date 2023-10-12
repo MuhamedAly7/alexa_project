@@ -8,37 +8,36 @@ Alixa is a Python-based virtual assistant that uses various libraries to perform
 
 ## Features
 
-- **Speech Recognition: Alixa utilizes the speech_recognition library to listen for voice commands.
+- Speech Recognition: Alixa utilizes the speech_recognition library to listen for voice commands.
 
-- **Text-to-Speech Conversion: The project supports two text-to-speech libraries, namely pyttsx3 and gTTS, giving users the flexibility to choose their preferred library.
+- Text-to-Speech Conversion: The project supports two text-to-speech libraries, namely pyttsx3 and gTTS, giving users the flexibility to choose their preferred library.
 
-- **Command Handling: Alixa catches voice commands, processes them, and responds accordingly.
+- Command Handling: Alixa catches voice commands, processes them, and responds accordingly.
 
-- **Multilingual Support: The translation feature allows users to translate text into various languages using the googletrans library.
+- Multilingual Support: The translation feature allows users to translate text into various languages using the googletrans library.
 
-- **Web Interaction: Alixa can perform web-related tasks such as searching on Google and opening location maps.
+- Web Interaction: Alixa can perform web-related tasks such as searching on Google and opening location maps.
 
-- **Weather Updates: The assistant can fetch and announce weather details for a specified city using the OpenWeatherMap API.
+- Weather Updates: The assistant can fetch and announce weather details for a specified city using the OpenWeatherMap API.
 
-- **Prayer Time Reminders: Alixa reminds users of prayer times using the Aladhan API.
+- Prayer Time Reminders: Alixa reminds users of prayer times using the Aladhan API.
 
-- **Calendar and Calculator Integration: The project can open the system's calendar and calculator applications.
+- Calendar and Calculator Integration: The project can open the system's calendar and calculator applications.
 
-- **System Control: Users can instruct Alixa to shut down the device.
+- System Control: Users can instruct Alixa to shut down the device.
 
 ##Getting Started
 
 1. Install the required libraries:
 
-```bash
 
-pip install SpeechRecognition gtts playsound pywhatkit wikipedia webbrowser requests pyttsx3 googletrans==4.0.0-rc1
+"pip install SpeechRecognition gtts playsound pywhatkit wikipedia webbrowser requests pyttsx3 googletrans==4.0.0-rc1"
 
   Set up the Aladhan API key by visiting Aladhan API.
 
     Run the Alexa.py script.
 
-Usage
+## Usage
 
     To initiate a conversation with Alixa, say "Alexa."
 
