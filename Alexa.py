@@ -110,7 +110,7 @@ def run_alexa():
     # to get the weather in any country
     if "weather" in command:
         url = "http://api.openweathermap.org/data/2.5/weather"
-        api_key = "8d499b47195675ef5e81ef2a697ed6cc"
+        api_key = "YOUR API KEY FROM OPENWEATHERMAP ACOUNT"
         speak_function("which city you want to know?", 'en')
         my_response_city = catch_command()
         params = {"q": my_response_city, "appid": api_key}
